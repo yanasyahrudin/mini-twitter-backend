@@ -51,6 +51,7 @@ app.use(errorHandler);
 // Database connection and server start
 const startServer = async () => {
   try {
+    
     // Test database connection
     await sequelize.authenticate();
     console.log('Database connection established successfully');
